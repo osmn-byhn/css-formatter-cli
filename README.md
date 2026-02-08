@@ -16,7 +16,7 @@ This tool allows you to convert between external/internal CSS and inline styles 
 You can install it globally via npm:
 
 ```bash
-npm install -g .
+npm install -g @osmn-byhn/css-formatter-cli
 ```
 
 Or run it instantly using npx:

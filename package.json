@@ -1,10 +1,10 @@
 {
-  "name": "css-formatter-cli",
+  "name": "@osmn-byhn/css-formatter-cli",
   "version": "1.0.0",
   "description": "Command line interface for @osmn-byhn/css-formatter to inline or extract CSS from HTML",
   "type": "module",
   "bin": {
-    "css-formatter": "./src/cli.js"
+    "css-formatter": "src/cli.js"
   },
   "files": [
     "src",
@@ -28,7 +28,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/osmn-byhn/css-formatter-cli"
+    "url": "git+https://github.com/osmn-byhn/css-formatter-cli.git"
   },
   "bugs": {
     "url": "https://github.com/osmn-byhn/css-formatter-cli/issues"
