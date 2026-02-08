@@ -1,0 +1,46 @@
+{
+  "name": "css-formatter-cli",
+  "version": "1.0.0",
+  "description": "Command line interface for @osmn-byhn/css-formatter to inline or extract CSS from HTML",
+  "type": "module",
+  "bin": {
+    "css-formatter": "./src/cli.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "formatter",
+    "cli",
+    "inline",
+    "extract",
+    "html",
+    "email-templates",
+    "web-performance"
+  ],
+  "author": "Osman Beyhan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/osmn-byhn/css-formatter-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/osmn-byhn/css-formatter-cli/issues"
+  },
+  "homepage": "https://css-formatter-cli.osmanbeyhan.com",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "pnpm@10.24.0",
+  "dependencies": {
+    "@osmn-byhn/css-formatter": "^1.0.1",
+    "chalk": "^5.6.2",
+    "commander": "^14.0.3"
+  }
+}
