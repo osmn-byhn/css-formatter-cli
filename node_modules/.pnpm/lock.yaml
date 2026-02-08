@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@osmn-byhn/css-formatter':
-        specifier: ^1.0.1
-        version: 1.0.1
+        specifier: ^1.0.2
+        version: 1.0.2
       chalk:
         specifier: ^5.6.2
         version: 5.6.2
@@ -20,8 +20,8 @@ importers:
 
 packages:
 
-  '@osmn-byhn/css-formatter@1.0.1':
-    resolution: {integrity: sha512-gIn3fjmgKVstzzg/LKlmUOIkdryoHx3IHft5HHPDSvxYI4owzLl5UQHpGfUFaCa5UaqgjzcVIlIg+IzT3bFvjA==}
+  '@osmn-byhn/css-formatter@1.0.2':
+    resolution: {integrity: sha512-fNp0gPfVCrZFv0vIG6eMpC1H4/ogl3jZMoeRqDCwnqmD1+ElBBiCJZvEHxVKl1UcKLY9O7Aa7PSQ7ouGn+QVtA==}
 
   chalk@5.6.2:
     resolution: {integrity: sha512-7NzBL0rN6fMUW+f7A6Io4h40qQlG+xGmtMxfbnH/K7TAtt8JQWVQK+6g0UXKMeVJoyV5EkkNsErQ8pVD3bLHbA==}
@@ -93,7 +93,7 @@ packages:
 
 snapshots:
 
-  '@osmn-byhn/css-formatter@1.0.1':
+  '@osmn-byhn/css-formatter@1.0.2':
     dependencies:
       css-tree: 3.1.0
       dom-serializer: 2.0.0

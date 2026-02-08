@@ -4,7 +4,7 @@ import { Command } from 'commander';
 import chalk from 'chalk';
 import fs from 'fs/promises';
 import path from 'path';
-import { inlineCSS, reverseCSSInternal, reverseCSSExternal } from '@osmn-byhn/css-formatter/dist/index.js';
+import { inlineCSS, reverseCSSInternal, reverseCSSExternal } from '@osmn-byhn/css-formatter';
 
 const program = new Command();
 
