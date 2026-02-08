@@ -4,9 +4,7 @@ import { Command } from 'commander';
 import chalk from 'chalk';
 import fs from 'fs/promises';
 import path from 'path';
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
-const { inlineCSS, reverseCSSInternal, reverseCSSExternal } = require('@osmn-byhn/css-formatter');
+import { inlineCSS, reverseCSSInternal, reverseCSSExternal } from '@osmn-byhn/css-formatter/dist/index.js';
 
 const program = new Command();
 
