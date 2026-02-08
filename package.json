@@ -1,6 +1,6 @@
 {
   "name": "@osmn-byhn/css-formatter-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Command line interface for @osmn-byhn/css-formatter to inline or extract CSS from HTML",
   "type": "module",
   "bin": {
